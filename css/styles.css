@@ -288,15 +288,17 @@ margin-right: 240px; */
   /* padding: 20px; */
 }
 .img_2, .img_3, .img_4 {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 220px;
   object-fit: contain;
   margin-bottom: 24px;
 }
 .img_2{
-  margin-top: 20px;
+  margin-top: 70px;
 }
 .img_4 {
+  position: relative;
+  bottom: 30px;
   margin-top: 0px;
 }
 .block_3{
