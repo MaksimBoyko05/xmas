@@ -372,3 +372,37 @@ button:hover {
     transform: scale(1.2);
   }
 }
+@media (max-width: 432px) {
+  .block_1 {
+    width: 532px;
+    height: 60px;
+  }
+  .content_1{
+    width: 432px;
+    flex-direction: column;
+  }
+  .content_2{
+    width: 432px;;
+    flex-direction: column;
+  }
+  .content_3{
+    width: 432px;;
+    flex-direction: column;
+  }
+  .content_4{
+    width: 432px;;
+    flex-direction: column;
+  }
+  .content_5{
+    width: 432px;;
+    flex-direction: column;
+  }
+  .block_3{
+    width: 432px;
+    position: relative;
+    right: 600px;
+  }
+  .footer{
+    width: 532px;
+  }
+}
