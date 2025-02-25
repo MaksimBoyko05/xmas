@@ -376,6 +376,8 @@ justify-content: center;
 .container {
   flex-direction: column;
   /* padding-left: 20px; */
+  max-width: 100%;
+  width: 90%;
 }
 .img_1{
   width: 300px;
