@@ -373,34 +373,40 @@ button:hover {
   }
 }
 @media (max-width: 432px) {
+  .container {
+    flex-direction: column;
+    /* padding-left: 20px; */
+  }
+  .img_1{
+    width: 300px;
+    position: relative;
+  }
   .block_1 {
     width: 532px;
     height: 60px;
+    position: relative;
+  }
+  .content_1, .content_2, .content_3, .content_4{
+    width: 532px;
+    border-radius: 34px;
+    font-size: 12px;
   }
   .content_1{
-    width: 432px;
-    flex-direction: column;
-  }
-  .content_2{
-    width: 432px;;
-    flex-direction: column;
-  }
-  .content_3{
-    width: 432px;;
-    flex-direction: column;
+   border-radius:  54% 46% 20% 80% / 71% 4% 96% 29%;
+   width: 432px;
+   margin-right: 10px;
   }
   .content_4{
-    width: 432px;;
-    flex-direction: column;
+    margin-top: 10px;
   }
   .content_5{
     width: 432px;;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .block_3{
     width: 432px;
     position: relative;
-    right: 600px;
+    right: 550px;
   }
   .footer{
     width: 532px;
