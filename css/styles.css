@@ -376,8 +376,8 @@ justify-content: center;
 }
 @media (max-width: 432px) {
 .container {
-  justify-content:center;
-  align-items: center;
+  /* justify-content:center;
+  align-items: center; */
   flex-direction: column;
   /* padding-left: 20px; */
   max-width: 380px;
@@ -414,7 +414,7 @@ justify-content: center;
 .block_3{
   width: 332px;
   position: relative;
-  right: 572px;
+  right: 571px;
 }
 .footer{
   width: 100%;
