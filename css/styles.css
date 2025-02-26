@@ -378,7 +378,7 @@ justify-content: center;
 .container {
   flex-direction: column;
   /* padding-left: 20px; */
-  max-width: 100%;
+  max-width: 380px;
   width: 90%;
 }
 .img_1{
@@ -395,12 +395,12 @@ justify-content: center;
   width: 100%;
   border-radius: 55px;
   font-size: 12px;
-  margin-left: 23px;
+  margin-left: 22px;
 }
 .content_1{
  border-radius:  100% 0% 100% 0% / 32% 57% 43% 68%;
  width: 364px;
- margin-left: 35px;
+ margin-left: 15px;
 }
 .content_4{
   margin-top: 10px;
@@ -418,6 +418,6 @@ justify-content: center;
   width: 100%;
 }
 body {
-  width: 430px;
+  width: 395px;
 }
 }
