@@ -202,6 +202,7 @@ body{
 .block_1{
   background-color: #F7CFD8;
   position: fixed;top: 0;
+  z-index: 1;
   width: 100%;
   height: 60px;
   /* border: solid #000;; */
@@ -365,7 +366,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-
+.burger_svg{
+  display: none;
+}
 @keyframes pulse {
 0%, 100% {
   transform: scale(1);
@@ -393,13 +396,15 @@ justify-content: center;
 .block_1 {
   width: 100%;
   height: 60px;
-  position: relative;
+  position: fixed;
+  z-index: 1;
 }
 .content_1, .content_2, .content_3, .content_4{
   width: 100%;
   border-radius: 55px;
   font-size: 12px;
   margin-left: 19px;
+  z-index: 0;
 }
 .content_1{
  border-radius:  100% 0% 100% 0% / 32% 57% 43% 68%;
@@ -423,5 +428,14 @@ justify-content: center;
 }
 body {
   width: 393px;
+}
+.burger_svg{
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 13px;
+  left: 10px;
+  z-index: 2;
 }
 }

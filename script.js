@@ -36,3 +36,18 @@ function succesWindow(message) {
 document.getElementById("myButton").addEventListener("click", function() {
     succesWindow('Замовлення прийнято!🌷');
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const burgerBtn = document.getElementById("burger-btn");
+    const menu = document.getElementById("menu");
+
+    burgerBtn.addEventListener("click", function () {
+        menu.classList.toggle("show-menu"); // Додаємо/забираємо клас
+    });
+
+    // Закриваємо меню при кліку поза ним
+    document.addEventListener("click", function (event) {
+        if (!menu.contains(event.target) && !burgerBtn.contains(event.target)) {
+            menu.classList.remove("show-menu");
+        }
+    });
+});
